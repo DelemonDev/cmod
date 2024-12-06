@@ -1,0 +1,11 @@
+{
+  "item.chmod.steel": "Steel Ingot",
+  "item.chmod.raw_steel": "Raw Steel",
+
+  "itemgroup.steel": "Tank Materials",
+
+  "block.chmod.steel_block": "Block of Steel",
+  "block.chmod.raw_steel_block": "Raw Block of Steel",
+  "block.chmod.steel_ore": "Steel Ore",
+  "block.chmod.deep_steel_ore": "Deepslate Steel Ore"
+}

@@ -23,6 +23,7 @@ public class MedTankRenderer extends MobEntityRenderer<MedTankEntity, MedTankMod
 
     @Override
     public void render(MedTankEntity mobEntity, float f, float g, MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i) {
+        matrixStack.scale(2.0F, 2.0F, 2.0F);
         super.render(mobEntity, f, g, matrixStack, vertexConsumerProvider, i);
 
     }

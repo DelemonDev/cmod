@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chmod:block/raw_steel_block"
+  }
+}

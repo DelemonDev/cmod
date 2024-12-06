@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "steel",
+  "ingredient": {
+    "item": "chmod:deep_steel_ore"
+  },
+  "result": "chmod:steel"
+}

@@ -21,7 +21,7 @@ public class CMod implements ModInitializer {
 	public void onInitialize() {
 
 		LOGGER.info("Hello Fabric world!");
-		FabricDefaultAttributeRegistry.register(ModEntities.MEDTANK, MedTankEntity.createMobAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.MEDTANK, MedTankEntity.createMedTankAttributes());
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();

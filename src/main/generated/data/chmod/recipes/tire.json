@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:dried_kelp"
+    },
+    "T": {
+      "item": "chmod:steel"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "STS",
+    "SSS"
+  ],
+  "result": {
+    "item": "chmod:tire"
+  },
+  "show_notification": false
+}

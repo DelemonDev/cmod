@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "chmod:cannonshoot"
+    },
+    "S": {
+      "item": "chmod:steel"
+    }
+  },
+  "pattern": [
+    "   ",
+    "SSC",
+    "   "
+  ],
+  "result": {
+    "item": "chmod:tankhead"
+  },
+  "show_notification": false
+}

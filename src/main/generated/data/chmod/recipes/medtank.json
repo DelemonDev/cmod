@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "chmod:tankhead"
+    },
+    "G": {
+      "item": "chmod:tire"
+    },
+    "S": {
+      "item": "chmod:tankbody"
+    }
+  },
+  "pattern": [
+    " C ",
+    " S ",
+    "GGG"
+  ],
+  "result": {
+    "item": "chmod:medtank_spawn_egg"
+  },
+  "show_notification": false
+}

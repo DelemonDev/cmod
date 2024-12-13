@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "chmod:steel"
+    }
+  },
+  "pattern": [
+    "   ",
+    "SSS",
+    "   "
+  ],
+  "result": {
+    "item": "chmod:cannonshoot"
+  },
+  "show_notification": false
+}

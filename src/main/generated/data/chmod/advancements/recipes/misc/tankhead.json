@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cannonshoot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chmod:cannonshoot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_steel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chmod:steel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tankhead"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_steel",
+      "has_cannonshoot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tankhead"
+    ]
+  },
+  "sends_telemetry_event": false
+}

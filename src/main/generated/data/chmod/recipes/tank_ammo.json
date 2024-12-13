@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:gold_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "S": {
+      "item": "chmod:steel"
+    }
+  },
+  "pattern": [
+    " S ",
+    " C ",
+    " G "
+  ],
+  "result": {
+    "count": 3,
+    "item": "chmod:tank_ammo"
+  },
+  "show_notification": false
+}

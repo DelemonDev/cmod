@@ -25,5 +25,11 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.STEEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_STEEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CANNONSHOOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIRE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TANKBODY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TANKHEAD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TANKAMMO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MEDTANK, Models.GENERATED);
     }
 }

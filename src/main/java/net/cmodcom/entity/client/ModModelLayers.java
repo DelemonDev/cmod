@@ -7,4 +7,7 @@ import net.cmodcom.CMod;
 public class ModModelLayers {
     public static final EntityModelLayer MEDTANK =
             new EntityModelLayer(new Identifier(CMod.MOD_ID,"medtank"), "main");
+
+    public static final EntityModelLayer TANKAMMO =
+            new EntityModelLayer(new Identifier(CMod.MOD_ID, "tankammo"), "main");
 }

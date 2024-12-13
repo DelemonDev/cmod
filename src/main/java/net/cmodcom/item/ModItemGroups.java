@@ -18,10 +18,17 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.STEEL)).entries((displayContext, entries) -> {
                         entries.add(ModItems.STEEL);
                         entries.add(ModItems.RAW_STEEL);
+                        entries.add(ModItems.TANKHEAD);
+                        entries.add(ModItems.TANKBODY);
+                        entries.add(ModItems.CANNONSHOOT);
+                        entries.add(ModItems.TIRE);
+                        entries.add(ModItems.TANKAMMO);
                         entries.add(ModBlocks.Steel_BLOCK);
                         entries.add(ModBlocks.RAW_Steel_BLOCK);
                         entries.add(ModBlocks.DEEP_STEEL_ORE);
                         entries.add(ModBlocks.STEEL_ORE);
+                        entries.add(ModItems.MEDTANK_SPAWN_EGG);
+
                     }).build());
     public static void registerItemGroups(){
         CMod.LOGGER.info("Registering Item Groups for " + CMod.MOD_ID);

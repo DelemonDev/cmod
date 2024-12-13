@@ -1,6 +1,12 @@
 {
   "item.chmod.steel": "Steel Ingot",
   "item.chmod.raw_steel": "Raw Steel",
+  "item.chmod.tire": "Tire",
+  "item.chmod.tankhead": "Tank Head",
+  "item.chmod.tankbody": "Tank Body",
+  "item.chmod.cannonshoot": "Cannon Shoot",
+  "item.chmod.tank_ammo": "Tank Ammo",
+  "item.chmod.medtank_spawn_egg": "Medium Tank",
 
   "itemgroup.steel": "Tank Materials",
 

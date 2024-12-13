@@ -5,6 +5,7 @@ import net.cmodcom.entity.ModEntities;
 import net.cmodcom.entity.custom.MedTankEntity;
 import net.cmodcom.item.ModItemGroups;
 import net.cmodcom.item.ModItems;
+import net.cmodcom.network.FireAmmoPacket;
 import net.cmodcom.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -25,5 +26,6 @@ public class CMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 		ModWorldGeneration.generateModWorldGen();
+		FireAmmoPacket.register();
 	}
 }

@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "chmod",
 	"version": "${version}",
-	"name": "CMod",
+	"name": "Tank mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Dele"

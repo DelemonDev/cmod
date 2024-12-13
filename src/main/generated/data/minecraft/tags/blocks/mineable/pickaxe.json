@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chmod:raw_steel_block",
+    "chmod:steel_block",
+    "chmod:steel_ore",
+    "chmod:deep_steel_ore"
+  ]
+}

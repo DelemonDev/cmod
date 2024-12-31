@@ -1,0 +1,23 @@
+// 1.20.1	2024-12-31T17:11:58.900005	Tank mod/Model Definitions
+8cf4a317dd6c586b48e9e7c3335b89031f2e92c9 assets\chmod\models\item\steel_ore.json
+5b578d23ed512273b00e3e89ffa57de59f8ae68b assets\chmod\models\block\deep_steel_ore.json
+782a9d7e56bece5d71086d4cf129ec334833c65d assets\chmod\models\item\skulk_petrification_stone.json
+17622da6d65f5c5f743f98d72828ca6e4beddd20 assets\chmod\models\item\steel_block.json
+1be8e191ad4b8bd5a82ad8ebc4331906a7adb2f5 assets\chmod\models\item\deep_steel_ore.json
+308458edc17b1b4faf64dc4215a79cecc01450a2 assets\chmod\blockstates\deep_steel_ore.json
+aad9ad479870bcd9826807ddcd0ed51e370ed296 assets\chmod\models\item\tire.json
+34ecd9fbbccdc0a8ca7878931495a490140c8831 assets\chmod\models\item\tankhead.json
+66eba7d761707c69f1e7b4505cec90d5604d0bcf assets\chmod\models\item\tank_ammo.json
+adeb0afa364f31b1545d2da66f03c0bd68e717a6 assets\chmod\models\block\steel_block.json
+b84706df3ea773be0846bb8d9878a45bf9d688b4 assets\chmod\blockstates\steel_ore.json
+e54e3939fba3bfe2ba69289d21e09ead4af80fe5 assets\chmod\models\item\tankbody.json
+1079399ed68c12ea8077f2ee31f2c02ae0c385ac assets\chmod\models\item\custom_bundle.json
+8c3b2880346b7e1bc46062e8153f9674a19b9509 assets\chmod\blockstates\steel_block.json
+2da1f933990a6a05886b0e4ce3ed2c4ba3cce4d2 assets\chmod\models\item\raw_steel_block.json
+9b2a61b6621ff0a63b3c1d85a4b8fe686481f7f1 assets\chmod\models\item\raw_steel.json
+3d1ed7f7deea9f38c3a0fb96c3893190ab200081 assets\chmod\models\item\steel.json
+15061f1a683a64d34e72711a41d54eea8b937190 assets\chmod\models\item\cannonshoot.json
+ff1ced18ff2f6ebcfe7f72d747cb3363cd8acb26 assets\chmod\models\block\raw_steel_block.json
+fc5add71851d9bcbfa89750390a365d1a7a34447 assets\chmod\blockstates\raw_steel_block.json
+d09dd56ac0f680de04b06a188cc68f698fb88d9a assets\chmod\models\block\steel_ore.json
+e94489b8833a13599320687f167cce05f492c0d0 assets\chmod\models\item\medtank.json

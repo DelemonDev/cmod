@@ -1,0 +1,5 @@
+// 1.20.1	2024-12-31T17:11:58.8989738	Tank mod/Block Loot Tables
+a9668121cfd7786d791ce09ee73d3a7762a90539 data\chmod\loot_tables\blocks\steel_block.json
+09f3f72ad898b2f024acdc451ba8e3c6fc98de3e data\chmod\loot_tables\blocks\raw_steel_block.json
+4fba6d9f159887679b35518f661de49f86b121c0 data\chmod\loot_tables\blocks\steel_ore.json
+b04487f5e3abde71fc9b3c2b185a33731d4f7083 data\chmod\loot_tables\blocks\deep_steel_ore.json

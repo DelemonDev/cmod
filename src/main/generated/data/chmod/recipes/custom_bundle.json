@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:string"
+    },
+    "S": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    " SS",
+    "LSS",
+    " SS"
+  ],
+  "result": {
+    "item": "chmod:custom_bundle"
+  },
+  "show_notification": true
+}

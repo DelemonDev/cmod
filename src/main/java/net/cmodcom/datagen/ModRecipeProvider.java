@@ -49,7 +49,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL), conditionsFromItem(ModItems.STEEL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.TANKBODY)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TANKHEAD, 1)
-                .pattern("EEE")
+                .pattern("   ")
                 .pattern("SSC")
                 .pattern("   ")
                 .input('S', ModItems.STEEL)
@@ -79,8 +79,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.TANKHEAD), conditionsFromItem(ModItems.TANKHEAD))
                 .criterion(hasItem(ModItems.TIRE), conditionsFromItem(ModItems.TIRE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.MEDTANK_SPAWN_EGG)));
-
-
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CUSTOM_BUNDLE, 1)
+                .pattern(" SS")
+                .pattern("LSS")
+                .pattern(" SS")
+                .input('S', Items.LEATHER)
+                .input('L', Items.STRING)
+                .criterion(hasItem(Items.LEATHER), conditionsFromItem(Items.LEATHER))
+                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.CUSTOM_BUNDLE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SKULK_PETRIFICATION_STONE, 4)
+                .pattern("SSS")
+                .pattern("SLS")
+                .pattern("SSS")
+                .input('S', Items.STONE)
+                .input('L', Items.SCULK)
+                .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
+                .criterion(hasItem(Items.SCULK), conditionsFromItem(Items.SCULK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SKULK_PETRIFICATION_STONE)));
 
         offerSmelting(exporter, Steel_SMELTABLES, RecipeCategory.MISC, ModItems.STEEL,
                 0.7f, 200, "steel");

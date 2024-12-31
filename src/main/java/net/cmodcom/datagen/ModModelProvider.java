@@ -31,5 +31,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TANKHEAD, Models.GENERATED);
         itemModelGenerator.register(ModItems.TANKAMMO, Models.GENERATED);
         itemModelGenerator.register(ModItems.MEDTANK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CUSTOM_BUNDLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SKULK_PETRIFICATION_STONE, Models.GENERATED);
     }
 }

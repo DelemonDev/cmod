@@ -3,6 +3,7 @@ package net.cmodcom.item;
 import net.cmodcom.CMod;
 import net.cmodcom.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -28,6 +29,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEP_STEEL_ORE);
                         entries.add(ModBlocks.STEEL_ORE);
                         entries.add(ModItems.MEDTANK_SPAWN_EGG);
+                        entries.add(ModItems.SKULK_PETRIFICATION_STONE);
+                        entries.add(ModItems.CUSTOM_BUNDLE);
 
                     }).build());
     public static void registerItemGroups(){

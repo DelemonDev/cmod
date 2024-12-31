@@ -16,6 +16,6 @@ public class CModClient implements ClientModInitializer {
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.MEDTANK, MedTankModel::getTexturedModelData);
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.TANKAMMO, TankAmmoModel::getTexturedModelData);
         ClientEventHandler.register();
-
+        EntityRendererRegistry.register(ModEntities.SKULK_PETRIFICATION_STONE_ENTITY, FlyingItemEntityRenderer::new);
     }
 }

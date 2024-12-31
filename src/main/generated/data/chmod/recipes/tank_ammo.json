@@ -21,5 +21,5 @@
     "count": 3,
     "item": "chmod:tank_ammo"
   },
-  "show_notification": false
+  "show_notification": true
 }

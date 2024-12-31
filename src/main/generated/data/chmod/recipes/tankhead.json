@@ -17,5 +17,5 @@
   "result": {
     "item": "chmod:tankhead"
   },
-  "show_notification": false
+  "show_notification": true
 }
